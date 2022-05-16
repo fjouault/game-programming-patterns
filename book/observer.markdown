@@ -681,7 +681,7 @@ latter is almost always what people use.
 
 If I were designing an observer system today, I'd make it <span
 name="function">function-based</span> instead of class-based. Even in C++, I
-would tend toward a system that let you register member function pointers as
+would tend toward a system that lets you register member function pointers as
 observers instead of instances of some `Observer` interface.
 
 <aside name="function">
